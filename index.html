@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Viewer</title>
+  </head>
+  <body>
+    <h1>Data Viewer</h1>
+    <div id="data"></div>
+
+    <script>
+      fetch("data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("data").innerHTML = `<pre>${JSON.stringify(
+            data,
+            null,
+            4
+          )}</pre>`;
+        })
+        .catch((error) => console.error("Error:", error));
+    </script>
+  </body>
+</html>

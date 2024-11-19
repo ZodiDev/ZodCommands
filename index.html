@@ -1,23 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Data Viewer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Command Viewer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #121212; /* Dark background */
+        color: #ffffff; /* White text */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      h1 {
+        color: #1db954; /* Spotify-like green */
+      }
+      table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        border: 1px solid #333333;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #1db954;
+        color: #000;
+      }
+      tr:nth-child(even) {
+        background-color: #1e1e1e;
+      }
+      tr:nth-child(odd) {
+        background-color: #2b2b2b;
+      }
+      .platform-badge {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-right: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+      .platform-twitch {
+        background-color: #9146ff; /* Twitch purple */
+        color: #fff;
+      }
+      .platform-youtube {
+        background-color: #ff0000; /* YouTube red */
+        color: #fff;
+      }
+      .platform-both {
+        background-color: #1e90ff; /* Blue for "Both" */
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
-    <h1>Data Viewer</h1>
-    <div id="data"></div>
-
+    <h1>Command Viewer</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Command</th>
+          <th>Platforms</th>
+          <th>Response</th>
+        </tr>
+      </thead>
+      <tbody id="commands-table">
+        <!-- Data will be populated here by JavaScript -->
+      </tbody>
+    </table>
     <script>
+      // Fetch the data.json file
       fetch("data.json")
         .then((response) => response.json())
         .then((data) => {
-          document.getElementById("data").innerHTML = `<pre>${JSON.stringify(
-            data,
-            null,
-            4
-          )}</pre>`;
+          const tableBody = document.getElementById("commands-table");
+
+          // Loop through each command in the JSON
+          Object.entries(data).forEach(([command, details]) => {
+            // Create a row
+            const row = document.createElement("tr");
+
+            // Command name with "!" prefix
+            const commandCell = document.createElement("td");
+            commandCell.textContent = `!${command}`;
+            row.appendChild(commandCell);
+
+            // Platforms
+            const platformsCell = document.createElement("td");
+            const platforms = details.platforms || [];
+            if (platforms.includes("twitch") && platforms.includes("youtube")) {
+              const badge = document.createElement("span");
+              badge.classList.add("platform-badge", "platform-both");
+              badge.textContent = "Both";
+              platformsCell.appendChild(badge);
+            } else if (platforms.includes("twitch")) {
+              const badge = document.createElement("span");
+              badge.classList.add("platform-badge", "platform-twitch");
+              badge.textContent = "Twitch";
+              platformsCell.appendChild(badge);
+            } else if (platforms.includes("youtube")) {
+              const badge = document.createElement("span");
+              badge.classList.add("platform-badge", "platform-youtube");
+              badge.textContent = "YouTube";
+              platformsCell.appendChild(badge);
+            } else {
+              platformsCell.textContent = "N/A";
+            }
+            row.appendChild(platformsCell);
+
+            // Response
+            const responseCell = document.createElement("td");
+            responseCell.textContent =
+              details.response || "No response specified";
+            row.appendChild(responseCell);
+
+            // Append row to table
+            tableBody.appendChild(row);
+          });
         })
-        .catch((error) => console.error("Error:", error));
+        .catch((error) => {
+          console.error("Error:", error);
+        });
     </script>
   </body>
 </html>
+c

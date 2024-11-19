@@ -291,7 +291,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "The date's current seed is: {seed}!",
+        "response": "The date's current seed is: {seed}",
         "webhook": null
     },
     "zodcommands": {

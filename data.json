@@ -293,5 +293,13 @@
         ],
         "response": "The date's current seed is: {seed}!",
         "webhook": null
+    },
+    "zodcommands": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "https://zodidev.github.io/ZodCommands/",
+        "webhook": null
     }
 }

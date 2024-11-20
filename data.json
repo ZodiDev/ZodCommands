@@ -301,5 +301,13 @@
         ],
         "response": "https://zodidev.github.io/ZodCommands/",
         "webhook": null
+    },
+    "test": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "Testing",
+        "webhook": null
     }
 }

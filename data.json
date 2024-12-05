@@ -1,393 +1,247 @@
 {
-    "ping": {
-        "platforms": [
-            "twitch"
-        ],
-        "response": "Pong!",
-        "webhook": null
-    },
-    "hello": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Hello, {username}!",
-        "webhook": null
-    },
-    "youtube": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "https://www.youtube.com/channel/@zodi02",
-        "webhook": null
-    },
-    "britain": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Innit Bruv",
-        "webhook": null
-    },
-    "discord": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "My discord server! https://discord.gg/pYGX9PgBeP",
-        "webhook": null
-    },
-    "clap": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "\ud83d\udc4f Clap!",
-        "webhook": "http://localhost:5000/clap"
-    },
-    "laugh": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "\ud83d\ude02 Laughing!",
-        "webhook": "http://localhost:5000/laugh"
-    },
-    "huh": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Huh? \ud83e\udd14",
-        "webhook": "http://localhost:5000/huh"
-    },
-    "say": {
-        "response": "",
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "webhook": "http://localhost:5002/api/tts"
-    },
-    "time": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "The current time is {time}!",
-        "webhook": null
-    },
-    "date": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Today's date is {date}.",
-        "webhook": null
-    },
-    "roll": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{username} rolled a {roll}!",
-        "webhook": null
-    },
-    "dice": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{username} rolled a {dice}!",
-        "webhook": null
-    },
-    "merch": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{username} visit my MerchStore at https://www.zodimerch.com !",
-        "webhook": null
-    },
-    "wr": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "1.16+ RSG - 7:01 by Drip",
-        "webhook": null
-    },
-    "greet": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Hello there, {username}!",
-        "webhook": null
-    },
-    "sweden": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "ABBA",
-        "webhook": null
-    },
-    "pb": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "13:35 In this category (1.16+ random seed glitchless)",
-        "webhook": null
-    },
-    "allpb": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "To check all my speedruns, please go to: https://zodidev.github.io/PBs/",
-        "webhook": null
-    },
-    "sub15s": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "14:33, 14:35, 13:59, 13:35",
-        "webhook": null
-    },
-    "session": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{session}",
-        "webhook": null
-    },
-    "ranked": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "S06 | Emerald 2 | 14:03",
-        "webhook": null
-    },
-    "britian": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Innit Bruv",
-        "webhook": null
-    },
-    "bingo": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Play my Speedrunner Bingo at https://zodidev.github.io/Bingo",
-        "webhook": null
-    },
-    "twitch": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "https://www.twitch.tv/zodisp",
-        "webhook": null
-    },
-    "peepo": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "peepoHappy",
-        "webhook": null
-    },
-    "paus": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "PausMan",
-        "webhook": null
-    },
-    "pace": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "PauseMan paus",
-        "webhook": null
-    },
-    "fair": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "fair",
-        "webhook": null
-    },
-    "creeper": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "aww man",
-        "webhook": null
-    },
-    "zodi": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "streamer you are watching rn",
-        "webhook": null
-    },
-    "realwr": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Couri 14:36",
-        "webhook": null
-    },
-    "specs": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Ryzen 9 5950x, 64gb DDR4-2133, RTX 3060 12gb, 1tb m.2 SSD, 250gb SSD (sata) and 4tb of HDD over three drives(two 1tb and one 2tb)",
-        "webhook": null
-    },
-    "hotkeys": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "12345ZX button 5, button 4",
-        "webhook": null
-    },
-    "year": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "2024",
-        "webhook": null
-    },
-    "peripherals": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "2 VG27AQ(27\" 1440p 165Hz monitors), g502 lightspeed",
-        "webhook": null
-    },
-    "seed": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "The date's current seed is: {seed}",
-        "webhook": null
-    },
-    "zodcommands": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "https://zodidev.github.io/ZodCommands/",
-        "webhook": null
-    },
-    "browser": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Firefox",
-        "webhook": null
-    },
-    "fakewr": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "20:42 CoolhALAW2",
-        "webhook": null
-    },
-    "website": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "To view all things Zodi, go to https://zodidev.github.io/Zodi/",
-        "webhook": null
-    },
-    "runs": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "13:53",
-        "webhook": null
-    },
-    "playlist": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "",
-        "webhook": null
-    },
-    "today": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "16:32",
-        "webhook": null
-    },
-    "pronouns": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "He/Him",
-        "webhook": null
-    },
-    "perch": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "PERCHING Prayge",
-        "webhook": null
-    },
-    "yt": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "",
-        "webhook": null
-    },
-    "aawr": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "2:14 Feinberg",
-        "webhook": null
-    },
-    "goat": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "top 3: Crookst, Couriway, Skycrab (honourable mention CoolhALAW2)",
-        "webhook": null
-    }
+  "ping": {
+    "platforms": ["twitch"],
+    "response": "Pong!",
+    "webhook": null
+  },
+  "hello": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Hello, {username}!",
+    "webhook": null
+  },
+  "youtube": {
+    "platforms": ["twitch", "youtube"],
+    "response": "https://www.youtube.com/channel/@zodi02",
+    "webhook": null
+  },
+  "britain": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Innit Bruv",
+    "webhook": null
+  },
+  "discord": {
+    "platforms": ["twitch", "youtube"],
+    "response": "My discord server! https://discord.gg/pYGX9PgBeP",
+    "webhook": null
+  },
+  "clap": {
+    "platforms": ["twitch", "youtube"],
+    "response": "\ud83d\udc4f Clap!",
+    "webhook": "http://localhost:5000/clap"
+  },
+  "laugh": {
+    "platforms": ["twitch", "youtube"],
+    "response": "\ud83d\ude02 Laughing!",
+    "webhook": "http://localhost:5000/laugh"
+  },
+  "huh": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Huh? \ud83e\udd14",
+    "webhook": "http://localhost:5000/huh"
+  },
+  "say": {
+    "response": "",
+    "platforms": ["twitch", "youtube"],
+    "webhook": "http://localhost:5002/api/tts"
+  },
+  "time": {
+    "platforms": ["twitch", "youtube"],
+    "response": "The current time is {time}!",
+    "webhook": null
+  },
+  "date": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Today's date is {date}.",
+    "webhook": null
+  },
+  "roll": {
+    "platforms": ["twitch", "youtube"],
+    "response": "{username} rolled a {roll}!",
+    "webhook": null
+  },
+  "dice": {
+    "platforms": ["twitch", "youtube"],
+    "response": "{username} rolled a {dice}!",
+    "webhook": null
+  },
+  "merch": {
+    "platforms": ["twitch", "youtube"],
+    "response": "{username} visit my MerchStore at https://www.zodimerch.com !",
+    "webhook": null
+  },
+  "wr": {
+    "platforms": ["twitch", "youtube"],
+    "response": "1.16+ RSG - 7:01 by Drip",
+    "webhook": null
+  },
+  "greet": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Hello there, {username}!",
+    "webhook": null
+  },
+  "sweden": {
+    "platforms": ["twitch", "youtube"],
+    "response": "ABBA",
+    "webhook": null
+  },
+  "pb": {
+    "platforms": ["twitch", "youtube"],
+    "response": "13:35 In this category (1.16+ random seed glitchless)",
+    "webhook": null
+  },
+  "allpb": {
+    "platforms": ["twitch", "youtube"],
+    "response": "To check all my speedruns, please go to: https://zodidev.github.io/PBs/",
+    "webhook": null
+  },
+  "sub15s": {
+    "platforms": ["twitch", "youtube"],
+    "response": "14:33, 14:35, 13:59, 13:35",
+    "webhook": null
+  },
+  "session": {
+    "platforms": ["twitch", "youtube"],
+    "response": "{session}",
+    "webhook": null
+  },
+  "ranked": {
+    "platforms": ["twitch", "youtube"],
+    "response": "S06 | Emerald 2 | 14:03",
+    "webhook": null
+  },
+  "britian": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Innit Bruv",
+    "webhook": null
+  },
+  "bingo": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Play my Speedrunner Bingo at https://zodidev.github.io/Bingo",
+    "webhook": null
+  },
+  "twitch": {
+    "platforms": ["twitch", "youtube"],
+    "response": "https://www.twitch.tv/zodisp",
+    "webhook": null
+  },
+  "peepo": {
+    "platforms": ["twitch", "youtube"],
+    "response": "peepoHappy",
+    "webhook": null
+  },
+  "paus": {
+    "platforms": ["twitch", "youtube"],
+    "response": "PausMan",
+    "webhook": null
+  },
+  "pace": {
+    "platforms": ["twitch", "youtube"],
+    "response": "PauseMan paus",
+    "webhook": null
+  },
+  "fair": {
+    "platforms": ["twitch", "youtube"],
+    "response": "fair",
+    "webhook": null
+  },
+  "creeper": {
+    "platforms": ["twitch", "youtube"],
+    "response": "aww man",
+    "webhook": null
+  },
+  "zodi": {
+    "platforms": ["twitch", "youtube"],
+    "response": "streamer you are watching rn",
+    "webhook": null
+  },
+  "realwr": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Couri 14:36",
+    "webhook": null
+  },
+  "specs": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Ryzen 9 5950x, 64gb DDR4-2133, RTX 3060 12gb, 1tb m.2 SSD, 250gb SSD (sata) and 4tb of HDD over three drives(two 1tb and one 2tb)",
+    "webhook": null
+  },
+  "hotkeys": {
+    "platforms": ["twitch", "youtube"],
+    "response": "12345ZX button 5, button 4",
+    "webhook": null
+  },
+  "year": {
+    "platforms": ["twitch", "youtube"],
+    "response": "2024",
+    "webhook": null
+  },
+  "peripherals": {
+    "platforms": ["twitch", "youtube"],
+    "response": "2 VG27AQ(27\" 1440p 165Hz monitors), g502 lightspeed",
+    "webhook": null
+  },
+  "seed": {
+    "platforms": ["twitch", "youtube"],
+    "response": "The date's current seed is: {seed}",
+    "webhook": null
+  },
+  "zodcommands": {
+    "platforms": ["twitch", "youtube"],
+    "response": "https://zodidev.github.io/ZodCommands/",
+    "webhook": null
+  },
+  "browser": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Firefox",
+    "webhook": null
+  },
+  "fakewr": {
+    "platforms": ["twitch", "youtube"],
+    "response": "20:42 CoolhALAW2",
+    "webhook": null
+  },
+  "website": {
+    "platforms": ["twitch", "youtube"],
+    "response": "To view all things Zodi, go to https://zodidev.github.io/Zodi/",
+    "webhook": null
+  },
+  "runs": {
+    "platforms": ["twitch", "youtube"],
+    "response": "13:53",
+    "webhook": null
+  },
+  "playlist": {
+    "platforms": ["twitch", "youtube"],
+    "response": "Check out my playlist at: https://suno.com/playlist/e3621e2e-2d80-4f84-b566-12b38e5fbd50",
+    "webhook": null
+  },
+  "today": {
+    "platforms": ["twitch", "youtube"],
+    "response": "16:32",
+    "webhook": null
+  },
+  "pronouns": {
+    "platforms": ["twitch", "youtube"],
+    "response": "He/Him",
+    "webhook": null
+  },
+  "perch": {
+    "platforms": ["twitch", "youtube"],
+    "response": "PERCHING Prayge",
+    "webhook": null
+  },
+  "yt": {
+    "platforms": ["twitch", "youtube"],
+    "response": "https://www.youtube.com/channel/@zodi02",
+    "webhook": null
+  },
+  "aawr": {
+    "platforms": ["twitch", "youtube"],
+    "response": "2:14 Feinberg",
+    "webhook": null
+  },
+  "goat": {
+    "platforms": ["twitch", "youtube"],
+    "response": "top 3: Crookst, Couriway, Skycrab (honourable mention CoolhALAW2)",
+    "webhook": null
+  }
 }

@@ -139,7 +139,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "13:35 in this category. Type !allpb for all my pbs",
+        "response": "13:35 In this category (1.16+ random seed glitchless)",
         "webhook": null
     },
     "allpb": {
@@ -147,7 +147,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "MCSR: 1.16 RSG: 13:35 | 1.17 SSG: 2:30 | FSG: 7:04 | SRG: 13:38 | Icarus: 8:28| PogLoot RSG: 13:30 | PogLoot Icarus: 5:03 | PogLoot FSG: 3:37 | PogLoot ISRSG: 4:10 | MCSR Ranked: 14:03",
+        "response": "To check all my speedruns, please go to: https://zodidev.github.io/PBs/",
         "webhook": null
     },
     "sub15s": {
@@ -302,20 +302,92 @@
         "response": "https://zodidev.github.io/ZodCommands/",
         "webhook": null
     },
-    "test": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "Testing",
-        "webhook": null
-    },
     "browser": {
         "platforms": [
             "twitch",
             "youtube"
         ],
         "response": "Firefox",
+        "webhook": null
+    },
+    "fakewr": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "20:42 CoolhALAW2",
+        "webhook": null
+    },
+    "website": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "To view all things Zodi, go to https://zodidev.github.io/Zodi/",
+        "webhook": null
+    },
+    "runs": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "13:53",
+        "webhook": null
+    },
+    "playlist": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "",
+        "webhook": null
+    },
+    "today": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "16:32",
+        "webhook": null
+    },
+    "pronouns": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "He/Him",
+        "webhook": null
+    },
+    "perch": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "PERCHING Prayge",
+        "webhook": null
+    },
+    "yt": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "",
+        "webhook": null
+    },
+    "aawr": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "2:14 Feinberg",
+        "webhook": null
+    },
+    "goat": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "top 3: Crookst, Couriway, Skycrab (honourable mention CoolhALAW2)",
         "webhook": null
     }
 }

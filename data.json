@@ -176,7 +176,6 @@
     },
     "twitch": {
         "platforms": [
-            "twitch",
             "youtube"
         ],
         "response": "https://www.twitch.tv/zodisp",
@@ -368,8 +367,7 @@
     },
     "video": {
         "platforms": [
-            "twitch",
-            "youtube"
+            "twitch"
         ],
         "response": "new video out now! https://www.youtube.com/watch?v=-OHezl-KR2M \udb40\udc00",
         "webhook": null

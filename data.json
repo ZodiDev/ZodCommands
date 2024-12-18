@@ -476,20 +476,20 @@
         "response": "{username} you do not have permission to you this command",
         "webhook": null
     },
-    "test,test2": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "testing",
-        "webhook": null
-    },
     "rsgpb": {
         "platforms": [
             "twitch",
             "youtube"
         ],
         "response": "13:35 (1.16+ random seed glitchless)",
+        "webhook": null
+    },
+    "test3": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test",
         "webhook": null
     }
 }

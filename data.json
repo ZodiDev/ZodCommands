@@ -412,14 +412,6 @@
         "response": "NODDERS UNDERSCORE NODDERS",
         "webhook": null
     },
-    "realslimzodi": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "I'm Slim Zodi, yes, I'm the real Zodi All you other Slim Zodis are just imitating So won't the real Slim Zodi please stand up Please stand up, please stand up? 'Cause I'm Slim Zodi, yes, I'm the real Zodi All you other Slim Zodis are just imitating So won't the real Slim Zodi please stand up Please stand up, please stand up?",
-        "webhook": null
-    },
     "mapless": {
         "platforms": [
             "twitch",

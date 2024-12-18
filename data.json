@@ -483,5 +483,13 @@
         ],
         "response": "test",
         "webhook": null
+    },
+    "test6,test7": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "testlmao",
+        "webhook": null
     }
 }

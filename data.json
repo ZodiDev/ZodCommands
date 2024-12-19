@@ -475,5 +475,13 @@
         ],
         "response": "13:35 (1.16+ random seed glitchless)",
         "webhook": null
+    },
+    "AreEssGee": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "AreEssGee is a practice category featuring seeds that are consistently better than vanilla. It is not an approved mod for the 1.16 category. \udb40\udc00",
+        "webhook": null
     }
 }

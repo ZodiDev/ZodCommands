@@ -483,5 +483,13 @@
         ],
         "response": "AreEssGee is a practice category that has better seeds and rates. https://github.com/faluhub/AreEssGee",
         "webhook": null
+    },
+    "fsg": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "FSG is a mod that gives you significant better seeds. https://github.com/DuncanRuns/FSG-Mod...",
+        "webhook": null
     }
 }

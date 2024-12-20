@@ -499,5 +499,13 @@
         ],
         "response": "true",
         "webhook": null
+    },
+    "areessgeepb": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "9:18 POGGIES",
+        "webhook": null
     }
 }

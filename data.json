@@ -476,14 +476,6 @@
         "response": "13:35 (1.16+ random seed glitchless)",
         "webhook": null
     },
-    "AreEssGee,areessgee": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "AreEssGee is a practice category that has better seeds and rates. https://github.com/faluhub/AreEssGee",
-        "webhook": null
-    },
     "fsg": {
         "platforms": [
             "twitch",
@@ -506,6 +498,14 @@
             "youtube"
         ],
         "response": "9:18 POGGIES",
+        "webhook": null
+    },
+    "AreEssGee,areessgee,arsg": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "AreEssGee is a practice category that has better seeds and rates. https://github.com/faluhub/AreEssGee",
         "webhook": null
     }
 }

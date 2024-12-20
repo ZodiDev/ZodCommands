@@ -491,5 +491,13 @@
         ],
         "response": "FSG is a mod that gives you significant better seeds. https://github.com/DuncanRuns/FSG-Mod...",
         "webhook": null
+    },
+    "coolisbetterthanzodi": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "true",
+        "webhook": null
     }
 }

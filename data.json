@@ -507,5 +507,13 @@
         ],
         "response": "AreEssGee is a practice category that has better seeds and rates. https://github.com/faluhub/AreEssGee",
         "webhook": null
+    },
+    "lurk": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{username} is now Lurking!",
+        "webhook": null
     }
 }

@@ -330,7 +330,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "Completed Runs: 15:26, 10:30, 14:43",
+        "response": "Completed Run: 12:34",
         "webhook": null
     },
     "pronouns": {
@@ -513,7 +513,15 @@
             "twitch",
             "youtube"
         ],
-        "response": "{username} is now Lurking!",
+        "response": "{username} is {lurk} Lurking!",
+        "webhook": null
+    },
+    "unlurk": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{username} is {unlurk} Lurking!",
         "webhook": null
     }
 }

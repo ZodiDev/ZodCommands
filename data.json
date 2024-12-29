@@ -523,5 +523,13 @@
         ],
         "response": "{username} is {unlurk} Lurking!",
         "webhook": null
+    },
+    "paceman": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "paceman.gg",
+        "webhook": null
     }
 }

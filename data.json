@@ -531,5 +531,13 @@
         ],
         "response": "paceman.gg",
         "webhook": null
+    },
+    "mic": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "Shure MV7",
+        "webhook": null
     }
 }

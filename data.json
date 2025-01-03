@@ -539,5 +539,13 @@
         ],
         "response": "Shure MV7",
         "webhook": null
+    },
+    "rules": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "be nice",
+        "webhook": null
     }
 }

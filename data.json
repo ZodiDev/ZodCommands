@@ -547,5 +547,13 @@
         ],
         "response": "Be nice, No spamming (it is really annoying and makes the chat experience worse for everyone)",
         "webhook": null
+    },
+    "mcsrawards": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "MCSR Awards is an award hosted by fulham. Link to the live award show: https://www.twitch.tv/fulham",
+        "webhook": null
     }
 }

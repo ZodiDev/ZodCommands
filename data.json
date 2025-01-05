@@ -556,14 +556,6 @@
         "response": "MCSR Awards is an award hosted by fulham. Link to the live award show: https://www.twitch.tv/fulham",
         "webhook": null
     },
-    "CoolhALAW2": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "referred to as \"Cool\", \"CoolhALAW\" or \"CoolhALAW2\" pronouns She/They, mongey paus",
-        "webhook": null
-    },
     "bye": {
         "platforms": [
             "twitch",

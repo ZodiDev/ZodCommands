@@ -563,5 +563,13 @@
         ],
         "response": "referred to as \"Cool\", \"CoolhALAW\" or \"CoolhALAW2\" pronouns She/They, mongey paus",
         "webhook": null
+    },
+    "bye": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "cya",
+        "webhook": null
     }
 }

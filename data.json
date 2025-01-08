@@ -27,24 +27,21 @@
             "twitch",
             "youtube"
         ],
-        "response": "\ud83d\udc4f Clap!",
-        "webhook": "http://localhost:5000/clap"
+        "response": "\ud83d\udc4f Clap! {clap}"
     },
     "laugh": {
         "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "\ud83d\ude02 Laughing!",
-        "webhook": "http://localhost:5000/laugh"
+        "response": "\ud83d\ude02 Laughing! {laugh}"
     },
     "huh": {
         "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "Huh? \ud83e\udd14",
-        "webhook": "http://localhost:5000/huh"
+        "response": "Huh? \ud83e\udd14 {huh}"
     },
     "say": {
         "response": "",
@@ -570,6 +567,14 @@
             "youtube"
         ],
         "response": "reffered to as \"cool\" and \"CoolhALAW(2)\", pronouns She/Her, rsg pb 20:42",
+        "webhook": null
+    },
+    "test": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test",
         "webhook": null
     }
 }

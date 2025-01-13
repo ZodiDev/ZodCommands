@@ -247,7 +247,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "12345ZX button 5, button 4",
+        "response": "12345ZC button 5, button 4",
         "webhook": null
     },
     "year": {
@@ -575,6 +575,14 @@
             "youtube"
         ],
         "response": "test",
+        "webhook": null
+    },
+    "hug": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{username} {hug}",
         "webhook": null
     }
 }

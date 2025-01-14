@@ -584,5 +584,13 @@
         ],
         "response": "{username} {hug}",
         "webhook": null
+    },
+    "practicemap": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "https://github.com/Dibedy/The-MCSR-Practice-Map",
+        "webhook": null
     }
 }

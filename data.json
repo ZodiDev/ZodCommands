@@ -592,5 +592,13 @@
         ],
         "response": "https://github.com/Dibedy/The-MCSR-Practice-Map",
         "webhook": null
+    },
+    "language": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "French language to help with crafting",
+        "webhook": null
     }
 }

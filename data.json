@@ -115,14 +115,6 @@
         "response": "ABBA",
         "webhook": null
     },
-    "pb": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "12:19 In this category (1.16+ random seed glitchless)",
-        "webhook": null
-    },
     "allpb": {
         "platforms": [
             "twitch",
@@ -327,7 +319,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "Nothing yet",
+        "response": "Nothing Yet",
         "webhook": null
     },
     "pronouns": {
@@ -591,6 +583,62 @@
             "youtube"
         ],
         "response": "French language to help with crafting",
+        "webhook": null
+    },
+    "rulesfeinberg": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "NO disrespect to Feinberg's name",
+        "webhook": null
+    },
+    "mcsrranked": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "mcsrranked.com",
+        "webhook": null
+    },
+    "mods": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "https://mods.tildejustin.dev /",
+        "webhook": null
+    },
+    "tomorrow": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "World Record",
+        "webhook": null
+    },
+    "pb,personalbest": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "12:19 In this category (1.16+ random seed glitchless)",
+        "webhook": null
+    },
+    "test": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test",
+        "webhook": null
+    },
+    "sessioncool": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "Session Stats for Cool Nether: 5 Avg: 1:20, Bastion: 2 Avg: 1:58, Fortress: 1 Avg: 3:52, Stronghold: 1 Avg: 5:01, End: 1 Avg: 5:20, Finish: 1 Avg: 6:25 (these are real)",
         "webhook": null
     }
 }

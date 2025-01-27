@@ -625,14 +625,6 @@
         "response": "12:19 In this category (1.16+ random seed glitchless)",
         "webhook": null
     },
-    "test": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "test",
-        "webhook": null
-    },
     "sessioncool": {
         "platforms": [
             "twitch",

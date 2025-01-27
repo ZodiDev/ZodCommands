@@ -642,20 +642,20 @@
         "webhook": null,
         "mod": true
     },
-    "test": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "test",
-        "webhook": null
-    },
     "zodisp": {
         "platforms": [
             "twitch",
             "youtube"
         ],
         "response": "zodisp",
+        "webhook": null
+    },
+    "test": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "!test",
         "webhook": null
     }
 }

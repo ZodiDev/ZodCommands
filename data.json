@@ -27,21 +27,21 @@
             "twitch",
             "youtube"
         ],
-        "response": "\ud83d\udc4f Clap! {clap}"
+        "response": "👏 Clap! {clap}"
     },
     "laugh": {
         "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "\ud83d\ude02 Laughing! {laugh}"
+        "response": "😂 Laughing! {laugh}"
     },
     "huh": {
         "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "Huh? \ud83e\udd14 {huh}"
+        "response": "Huh? 🤔 {huh}"
     },
     "say": {
         "response": "",
@@ -358,7 +358,7 @@
         "platforms": [
             "twitch"
         ],
-        "response": "new video out now! https://www.youtube.com/watch?v=-OHezl-KR2M \udb40\udc00",
+        "response": "new video out now! https://www.youtube.com/watch?v=-OHezl-KR2M 󠀀",
         "webhook": null
     },
     "widepeepo": {
@@ -430,7 +430,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "My discord server! https://discord.gg/pYGX9PgBeP \udb40\udc00",
+        "response": "My discord server! https://discord.gg/pYGX9PgBeP 󠀀",
         "webhook": null
     },
     "dadjoke,joke": {
@@ -633,29 +633,12 @@
         "response": "Session Stats for Cool Nether: 5 Avg: 1:20, Bastion: 2 Avg: 1:58, Fortress: 1 Avg: 3:52, Stronghold: 1 Avg: 5:01, End: 1 Avg: 5:20, Finish: 1 Avg: 6:25 (these are real)",
         "webhook": null
     },
-    "zodcommand": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{zodcommand}",
-        "webhook": null,
-        "mod": true
-    },
     "zodisp": {
         "platforms": [
             "twitch",
             "youtube"
         ],
         "response": "zodisp",
-        "webhook": null
-    },
-    "test": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "!test",
         "webhook": null
     }
 }

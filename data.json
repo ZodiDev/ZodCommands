@@ -266,14 +266,6 @@
         "response": "The date's current seed is: {seed}",
         "webhook": null
     },
-    "zodcommands": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "https://zodidev.github.io/ZodCommands/",
-        "webhook": null
-    },
     "browser": {
         "platforms": [
             "twitch",
@@ -639,6 +631,14 @@
             "youtube"
         ],
         "response": "zodisp",
+        "webhook": null
+    },
+    "zodcommands,commands": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "https://zodidev.github.io/ZodCommands/",
         "webhook": null
     }
 }

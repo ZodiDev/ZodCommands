@@ -632,5 +632,22 @@
         ],
         "response": "Session Stats for Cool Nether: 5 Avg: 1:20, Bastion: 2 Avg: 1:58, Fortress: 1 Avg: 3:52, Stronghold: 1 Avg: 5:01, End: 1 Avg: 5:20, Finish: 1 Avg: 6:25 (these are real)",
         "webhook": null
+    },
+    "zodcommand": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{zodcommand}",
+        "webhook": null,
+        "mod": true
+    },
+    "test": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test",
+        "webhook": null
     }
 }

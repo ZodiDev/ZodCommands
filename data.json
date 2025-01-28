@@ -27,21 +27,24 @@
             "twitch",
             "youtube"
         ],
-        "response": "👏 Clap! {clap}"
+        "response": "👏 Clap! {clap}",
+        "focus": true
     },
     "laugh": {
         "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "😂 Laughing! {laugh}"
+        "response": "😂 Laughing! {laugh}",
+        "focus": true
     },
     "huh": {
         "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "Huh? 🤔 {huh}"
+        "response": "Huh? 🤔 {huh}",
+        "focus": true
     },
     "say": {
         "response": "",
@@ -49,6 +52,7 @@
             "twitch",
             "youtube"
         ],
+        "focus": true,
         "webhook": "http://localhost:5002/api/tts"
     },
     "time": {

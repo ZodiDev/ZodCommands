@@ -652,5 +652,13 @@
         ],
         "response": "test2",
         "webhook": null
+    },
+    "backseat": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "\"Backseating is not allowed peepoHappy",
+        "webhook": null
     }
 }

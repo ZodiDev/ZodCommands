@@ -661,7 +661,7 @@
         "response": "\"Backseating is not allowed peepoHappy",
         "webhook": null
     },
-    "catfact,cat": {
+    "catfact,cat,cats": {
         "platforms": [
             "twitch",
             "youtube"

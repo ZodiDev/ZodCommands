@@ -418,7 +418,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "https://www.youtube.com/channel/@zodi02",
+        "response": "youtube.com/@zodi02",
         "webhook": null
     },
     "discord,dc": {
@@ -659,14 +659,6 @@
             "youtube"
         ],
         "response": "\"Backseating is not allowed peepoHappy",
-        "webhook": null
-    },
-    "catfact,cat,cats": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{catfact}",
         "webhook": null
     }
 }

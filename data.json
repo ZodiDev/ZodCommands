@@ -660,5 +660,13 @@
         ],
         "response": "\"Backseating is not allowed peepoHappy",
         "webhook": null
+    },
+    "mouse": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "logitech g502 lightspeed",
+        "webhook": null
     }
 }

@@ -668,5 +668,13 @@
         ],
         "response": "logitech g502 lightspeed",
         "webhook": null
+    },
+    "monitor": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "2 VG27AQ s",
+        "webhook": null
     }
 }

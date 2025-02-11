@@ -676,5 +676,13 @@
         ],
         "response": "2 VG27AQ s",
         "webhook": null
+    },
+    "yesterday": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "19 nether enters, avg 1:57, 5 bastions",
+        "webhook": null
     }
 }

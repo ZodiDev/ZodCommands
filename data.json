@@ -684,5 +684,13 @@
         ],
         "response": "15 nether enters, 1:56 avg, 3 bastions",
         "webhook": null
+    },
+    "nethergoal": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{nethergoal}",
+        "webhook": null
     }
 }

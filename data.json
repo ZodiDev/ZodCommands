@@ -698,7 +698,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "no reset analytics",
+        "response": "no reset analytics: https://docs.google.com/spreadsheets/d/1nd-jFlGSoyWzeIs71YirFRk8TqIJpCukRQiQO-QOS4c/edit?usp=sharing",
         "webhook": null
     }
 }

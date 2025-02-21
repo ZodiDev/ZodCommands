@@ -692,5 +692,13 @@
         ],
         "response": "{nethergoal}",
         "webhook": null
+    },
+    "noreset,analytics": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "no reset analytics",
+        "webhook": null
     }
 }

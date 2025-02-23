@@ -700,5 +700,13 @@
         ],
         "response": "12345ZC mb5, mb4",
         "webhook": null
+    },
+    "version": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "1.16.1",
+        "webhook": null
     }
 }

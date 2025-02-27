@@ -708,5 +708,13 @@
         ],
         "response": "1.16.1",
         "webhook": null
+    },
+    "tired": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "misinformation,  is never tired and always very awake, anyone that says otherwise is lying",
+        "webhook": null
     }
 }

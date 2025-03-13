@@ -716,5 +716,21 @@
         ],
         "response": "misinformation,  is never tired and always very awake, anyone that says otherwise is lying",
         "webhook": null
+    },
+    "color": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{color}",
+        "webhook": null
+    },
+    "spreadsheet": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "https://docs.google.com/spreadsheets/d/1lktPDvBXfsBjGyIWMSeBYiEK5rI2NCkuXxLBLDl-Ohc/edit?usp=drivesdk",
+        "webhook": null
     }
 }

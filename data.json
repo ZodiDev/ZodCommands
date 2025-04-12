@@ -637,14 +637,6 @@
         "response": "https://zodidev.github.io/ZodCommands/",
         "webhook": null
     },
-    "test": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "test2",
-        "webhook": null
-    },
     "backseat": {
         "platforms": [
             "twitch",
@@ -731,6 +723,38 @@
             "youtube"
         ],
         "response": "https://docs.google.com/spreadsheets/d/1lktPDvBXfsBjGyIWMSeBYiEK5rI2NCkuXxLBLDl-Ohc/edit?usp=drivesdk",
+        "webhook": null
+    },
+    "test": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test",
+        "webhook": null
+    },
+    "test2": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test2",
+        "webhook": null
+    },
+    "test3": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test3",
+        "webhook": null
+    },
+    "test4": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test4",
         "webhook": null
     }
 }

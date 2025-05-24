@@ -669,14 +669,6 @@
         "response": "(cool prolly won't be here at the end so is doing this now so they might not be accurate) 20 nethers, avg 1:46, 6 bastions avg 2:45",
         "webhook": null
     },
-    "nethergoal": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{nethergoal}",
-        "webhook": null
-    },
     "noreset,analytics": {
         "platforms": [
             "twitch",
@@ -739,6 +731,14 @@
             "youtube"
         ],
         "response": "test3",
+        "webhook": null
+    },
+    "nethergoal,nethers": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{nethergoal}",
         "webhook": null
     }
 }

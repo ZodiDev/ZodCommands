@@ -143,6 +143,14 @@
         "response": "{session}",
         "webhook": null
     },
+    "ask": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{ask}",
+        "webhook": null
+    },
     "ranked": {
         "platforms": [
             "twitch",
@@ -739,6 +747,14 @@
             "youtube"
         ],
         "response": "{nethergoal}",
+        "webhook": null
+    },
+    "netherrival,rival": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{netherrival}",
         "webhook": null
     }
 }

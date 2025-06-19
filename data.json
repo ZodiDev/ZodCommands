@@ -294,14 +294,6 @@
         "response": "To view all things Zodi, go to https://zodidev.github.io/Zodi/",
         "webhook": null
     },
-    "runs": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "-",
-        "webhook": null
-    },
     "playlist": {
         "platforms": [
             "twitch",
@@ -757,7 +749,7 @@
         "response": "{netherrival}",
         "webhook": null
     },
-    "zodiruns": {
+    "zodiruns,runs": {
         "platforms": [
             "twitch",
             "youtube"

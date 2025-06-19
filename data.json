@@ -756,5 +756,13 @@
         ],
         "response": "{netherrival}",
         "webhook": null
+    },
+    "zodiruns": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "https://www.youtube.com/@zodiruns",
+        "webhook": null
     }
 }

@@ -725,14 +725,6 @@
         "response": "test",
         "webhook": null
     },
-    "test3": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "test3",
-        "webhook": null
-    },
     "nethergoal,nethers": {
         "platforms": [
             "twitch",
@@ -755,6 +747,14 @@
             "youtube"
         ],
         "response": "https://www.youtube.com/@zodiruns",
+        "webhook": null
+    },
+    "age": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "23",
         "webhook": null
     }
 }

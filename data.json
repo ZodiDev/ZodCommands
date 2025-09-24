@@ -135,14 +135,6 @@
         "response": "14:33, 14:35, 13:59, 13:35, 12:19, 12:19",
         "webhook": null
     },
-    "session": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "{session}",
-        "webhook": null
-    },
     "ask": {
         "platforms": [
             "twitch",
@@ -741,6 +733,14 @@
         "response": "{netherrival}",
         "webhook": null
     },
+    "bastionrival,brival": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{bastionrival}",
+        "webhook": null
+    },
     "zodiruns,runs": {
         "platforms": [
             "twitch",
@@ -755,6 +755,14 @@
             "youtube"
         ],
         "response": "23",
+        "webhook": null
+    },
+    "session,stream": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "{session}",
         "webhook": null
     }
 }

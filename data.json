@@ -764,5 +764,13 @@
         ],
         "response": "{session}",
         "webhook": null
+    },
+    "ytlive": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "I am also live on youtube! Click here -> https://www.youtube.com/channel/UCX4nLphiA84NuMw5lMZlI6A/live",
+        "webhook": null
     }
 }

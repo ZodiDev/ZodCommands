@@ -602,7 +602,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "12:19 In this category (1.16+ random seed glitchless)",
+        "response": "{pb}",
         "webhook": null
     },
     "sessioncool": {
@@ -767,10 +767,17 @@
     },
     "ytlive": {
         "platforms": [
+            "twitch"
+        ],
+        "response": "I am also live on youtube! Click here -> https://www.youtube.com/channel/UCX4nLphiA84NuMw5lMZlI6A/live",
+        "webhook": null
+    },
+    "placement": {
+        "platforms": [
             "twitch",
             "youtube"
         ],
-        "response": "I am also live on youtube! Click here -> https://www.youtube.com/channel/UCX4nLphiA84NuMw5lMZlI6A/live",
+        "response": "{placement}",
         "webhook": null
     }
 }

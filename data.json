@@ -709,14 +709,6 @@
         "response": "https://docs.google.com/spreadsheets/d/1lktPDvBXfsBjGyIWMSeBYiEK5rI2NCkuXxLBLDl-Ohc/edit?usp=drivesdk",
         "webhook": null
     },
-    "test": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "test",
-        "webhook": null
-    },
     "nethergoal,nethers": {
         "platforms": [
             "twitch",
@@ -778,6 +770,14 @@
             "youtube"
         ],
         "response": "{placement}",
+        "webhook": null
+    },
+    "test,test5": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "test",
         "webhook": null
     }
 }

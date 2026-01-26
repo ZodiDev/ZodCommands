@@ -148,7 +148,7 @@
             "twitch",
             "youtube"
         ],
-        "response": "S06 | Emerald 2 | 14:03",
+        "response": "This season: Unranked || Previous seasons: S06 | Emerald 2",
         "webhook": null
     },
     "britian": {
@@ -772,20 +772,12 @@
         "response": "{placement}",
         "webhook": null
     },
-    "test,test5": {
+    "test": {
         "platforms": [
             "twitch",
             "youtube"
         ],
         "response": "test",
-        "webhook": null
-    },
-    "test6": {
-        "platforms": [
-            "twitch",
-            "youtube"
-        ],
-        "response": "test6",
         "webhook": null
     }
 }

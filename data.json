@@ -779,5 +779,13 @@
         ],
         "response": "test",
         "webhook": null
+    },
+    "rankedpb": {
+        "platforms": [
+            "twitch",
+            "youtube"
+        ],
+        "response": "14:03",
+        "webhook": null
     }
 }
